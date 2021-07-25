@@ -13,11 +13,11 @@
 <h2>📝Conhecimentos adquiridos:</h2>
  
  <p>Armazenamento em local storage</p>
- <p>Artiuiõ com formulário</p>
+ <p>Artribuição com formulário</p>
  
  <h2>📝Futuras implementações:</h2>
  
- <p>inserçõ do sweet alert</p>
+ <p>inserção do sweet alert</p>
  
  <h2>Imagem da página construida:</h2>
  
