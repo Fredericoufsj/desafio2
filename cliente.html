@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <title>Desafio2 - Gestão de Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <Header>
+            <h1>
+                <i class="fa fa-users" aria-hidden="true"></i>
+                Cadastro de cliente
+            </h1>
+        </Header>
+    </div>
+    <main>
+<div class="container-form">
+<form action="#" method="post" id="form-cliente">
+    <div class="form">
+        <div class="input-label">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome" class="input" required>
+            
+        </div>
+        <div class="input-label">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" class="input" required>
+        </div>
+        <div class="input-label">
+            <label for="telefone">Telefone</label>
+            <input type="number" id="telefone" name="telefone" placeholder="Telefone" class="input" required>
+        </div>
+        <div class="input-label">
+            <label for="cpf">CPF</label>
+            <input type="number" id="cpf" name="cpf" placeholder="CPF" class="input" required>
+        </div>
+      
+            <input type="submit" class="button" value="Cadastro De Cliente">
+            
+        
+    </div>
+
+</form>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Telefone</th>
+                <th>CPF</th>
+            </tr>
+        </thead>
+        <tbody id="table-clientes">
+            
+        </tbody>
+    </table>
+</div>
+<a href="index.html">
+    <button class="button">Voltar</button>
+</a>
+
+    </main>
+</body>
+<script src="scriptCliente.js"></script>
+</html>

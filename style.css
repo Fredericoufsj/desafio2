@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+:root {
+    --font-primary: "Baloo Da 2", serif;
+     --font-action: "Muli", serif;
+    --color-primary: #fd1350;
+    --color-secundary: #070f36;
+    --color-terciary: #2cb2c0;
+    }
+
+    /* zerar */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+body {
+    background-color: var(--color-primary);
+    font-family: var(--font-primary);
+}
+
+header{
+    background-color: var(--color-secundary);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.buttons{
+    font-family: var(--font-action);
+    display: flex;
+    margin-top: 250px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons a{
+    margin-bottom: 30px;
+}
+
+.button {
+    margin: 0 20px;
+    padding: 12px 20px;
+    max-width: 200px;
+    background-color: var(--color-terciary);
+    color: var(--color-secundary);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    height: fit-content;
+}
+
+.button-return{
+display: flex;
+flex-direction: row-reverse;
+}
+/* Cadastro */
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+}
+.container-form a {
+    width: fit-content;
+}
+form #cliente {
+    margin: 0px 20px;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-label {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+    width: 50%;
+}
+.input {
+    border: 1px solid var(--color-secundary);
+    border-radius: 6px;
+    outline-width: 0;
+    height: 30px;
+    padding-left: 10px;
+    }
+    
+.container-form .button{
+        align-items: center;
+        margin: 30px;
+    }
+
+.container-form table thead {
+        background-color: var(--color-secundary);
+        color: #fff;
+    }
+ 
+    .container-form table tbody {
+        text-align: center;
+        background-color: #fff;
+    }
