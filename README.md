@@ -21,6 +21,8 @@
  
  <h2>Imagem da página construida:</h2>
  
- <img src="./img/r" alt="imagem do site">
- <img src="./img/readme2.png" alt="imagem do site">
- <img src="./img/readme3.png" alt="imagem do site">
+ <img src="sistema-gestao.png" alt="imagem do site">
+ <img src="cadastro-cliente.png" alt="imagem do site">
+ <img src="cadastro-produto.png" alt="imagem do site">
+ <img src="ex.png" alt="imagem do site">
+
