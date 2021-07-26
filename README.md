@@ -5,7 +5,7 @@
 <p>Na página inicial é possível escolher entre Cadastrar cliente e Cadastrar produto</p>
 <p>Na página de Cadastro de Clientes é possível cadastrar nome, cpf, telefone e email, os auis serão armazenados no LocalStorage além de serem exibidos na tabela abaixo do formulário</p>
 <p>Na página de Cadastro de produto é possível cadastrar nome, categoria, marca e quantidade. O armazenamento e exibição é igual ao cliente.</p>
-<p>O projeto encontra-se hospedado na netlify , basta clicar <a href="https://app.netlify.com/sites/adoring-lalande-ab9033/overview">aqui</a> </p>
+<p>O projeto encontra-se hospedado na netlify , basta clicar <a href="https://app.netlify.com/sites/adoring-lalande-ab9033">aqui</a> </p>
 
  <h2>🛠 Linguagens e Ferramentas:</h2>
 <ul><li>HTML</li>
